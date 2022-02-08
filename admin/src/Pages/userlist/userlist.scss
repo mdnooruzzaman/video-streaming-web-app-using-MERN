@@ -1,0 +1,68 @@
+.userList{
+    flex: 5;
+    margin-top: 10px;
+}
+.userListUser{
+    display: flex;
+    align-items: center;
+    .userListUserImg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+}
+.userListActon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userListEdit{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    box-shadow: 0px 1px 2px gray;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.userListDelete{
+    font-size: 1.3rem;
+    color: red;
+    cursor: pointer;
+}
+
+.userTableList{
+    border-collapse: collapse;
+    width: 100%;
+}
+.userTableList td , .userTableList tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.userImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.userTitle{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.userID{
+    width: 250px;
+}
+.spiner{
+    display: flex;
+    justify-content: center;
+    margin-left: 200%;
+    margin-top: 10%;
+    border:none;
+}

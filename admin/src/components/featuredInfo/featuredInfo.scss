@@ -1,0 +1,63 @@
+.featuredInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+    .featuredItem{
+        flex: 1;
+        margin: 0 20px;
+        padding: 30px;
+       cursor: pointer;
+        border-radius: 5px;
+        -webkit-box-shadow: 1px 1px 15px 4px rgba(0,0,0,0.06); 
+        box-shadow: 1px 1px 15px 4px rgba(0,0,0,0.06);
+
+        .featuredTitle{
+            font-size: 1.3rem;
+            font-weight: 550;
+            &.revenue{
+                color:green;
+            }
+            &.sales{
+                color: orange;
+            }
+            &.cost{
+                color: rgb(119, 119, 103);
+            }
+        }
+        .featuredMoneyContainer{
+            margin: 10px 0px;
+            display: flex;
+            align-items: center;
+
+            .featuredMoney{
+                font-size: 30px;
+                font-weight: 600;
+            }
+            .featuredMoneyRate{
+                display: flex;
+                align-items: center;
+                margin-left: 1rem;
+                
+                .featuredIcon {
+                    margin-left: 5px;
+                    &.negative{
+                        color: red;
+                    }
+                    &.positive {
+                        color:darkgreen;
+                    }
+                }
+            }
+        }
+        .featuredSub{
+            color:gray;
+            &:hover{
+                color: black;
+            }
+        }
+     
+    }
+    
+}

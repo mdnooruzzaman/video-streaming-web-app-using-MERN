@@ -1,0 +1,23 @@
+.success{
+    display: flex;
+    justify-content: center;
+}
+.successAlert{
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+    border : 1px solid darkgreen;
+     border-radius: 3px ;
+     color: black;
+     background-color: rgb(193, 235, 193);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.info{
+    font-weight: normal;
+}
+.iconSuccess{
+    font-size: 25px;
+    cursor: pointer;
+}

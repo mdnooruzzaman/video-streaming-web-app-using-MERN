@@ -1,0 +1,177 @@
+.product{
+    flex:5;
+    padding: 20px;
+}
+.productTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .productAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    box-shadow: 0px 2px 4px gray;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .productTop {
+    display: flex;
+  }
+  
+  .productTopLeft,
+  .productTopRight {
+    flex: 1;
+  }
+  
+  .productTopRight {
+    width: 50%;
+
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .productInfoImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .productInfoTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .productName {
+    font-weight: 600;
+  }
+  
+  .productInfoBottom {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .productInfoItem {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .productInfoValue {
+    width: 300px;
+    font-weight: 300;
+  }
+  
+  .productBottom {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .productForm {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .productFormLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .productFormLeft > label {
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
+  .productFormLeft > input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .productFormLeft >select{
+    margin-bottom: 10px;
+  }
+  
+  .productUploadImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .productFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .productUpload{
+    display: flex;
+    align-items: center;
+    .file{
+      display: none;
+      cursor: pointer;
+    }
+  }
+  
+  .productButton{
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    box-shadow: 0px 2px 4px gray;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .productButtonupdate{
+    border: none;
+   
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkgoldenrod;
+    box-shadow: 0px 2px 4px gray;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  
+  .videoProgress{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  .trailerProgress{
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+  .upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  

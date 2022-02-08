@@ -1,0 +1,83 @@
+.newList{
+    flex: 5;
+    margin-top: 10px;
+}
+.productListProduct{
+    display: flex;
+    align-items: center;
+    .productListProductImg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+}
+.productListActon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productListEdit{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    box-shadow: 0px 1px 2px gray;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.productListDelete{
+    font-size: 1.3rem;
+    color: red;
+    cursor: pointer;
+}
+.movieList{
+    border-collapse: collapse;
+    width: 100%;
+}
+.movieList td , .movieList tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.movieImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.imgTitle{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.movieID{
+    width: 250px;
+}
+.newListButton{
+    padding: 15px;
+    border:none;
+    background-color: darkblue;
+    color: white;
+    box-shadow: 0px 1px 2px gray;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover{
+        box-shadow: 1px 2px 4px gray;
+    }
+
+}
+.spiner{
+    display: flex;
+    justify-content: center;
+    margin-left: 200%;
+    margin-top: 60%;
+}
